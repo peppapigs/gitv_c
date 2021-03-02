@@ -1,0 +1,3 @@
+please enter char:
+./echo_eof > tword 将输出位置重定向为文件toword文件内，
+并通过ctrl+D在一行的开始作为输入的结标识。
