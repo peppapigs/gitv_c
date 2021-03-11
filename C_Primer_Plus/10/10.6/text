@@ -1,0 +1,8 @@
+summary
+
+const double * pt: 指向常量的指针；不可以通过这个指针pt来修改它所指向的对象（变量）
+
+double * const pt: 指针常量；指针pt所指向的位置不能修改
+
+const double * const pt: pt指针指向的位置不能修改，同时不能通过pt指针修改它所指向的对
+                         象（变量）
