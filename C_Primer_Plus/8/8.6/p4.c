@@ -26,7 +26,7 @@ int main(void){
                         isword = false;
                 }
                 if(isblank(ch) || ispunct(ch))
-                        isword = true;
+                       isword = true;
         }
 
         printf("words_cnt: %d, letter_cnt: %d.\n", words_cnt, letter_cnt);
