@@ -1,0 +1,103 @@
+tree > list
+.
+├── 13.1
+│   ├── count
+│   ├── count.c
+│   └── text.txt
+├── 13.2
+│   ├── reduc
+│   ├── reduc.red
+│   ├── reducto
+│   └── reducto.c
+├── 13.3
+│   ├── addaword
+│   ├── addaword.c
+│   ├── parrot
+│   ├── parrot.c
+│   └── words
+├── 13.4
+│   ├── reverse
+│   ├── reverse.c
+│   └── text
+├── 13.5
+│   ├── append
+│   ├── append.c
+│   ├── dest
+│   ├── source1
+│   └── source2
+├── 13.6
+│   ├── numbers.dat
+│   ├── randbin
+│   └── randbin.c
+├── list
+├── program
+│   ├── p1
+│   │   ├── count
+│   │   ├── count.c
+│   │   └── text.txt
+│   ├── p10
+│   │   ├── p10
+│   │   ├── p10.c
+│   │   └── text
+│   ├── p11
+│   │   ├── context
+│   │   ├── p11
+│   │   └── p11.c
+│   ├── p12
+│   │   ├── bitgraph
+│   │   ├── chargraph
+│   │   ├── cp_bitgraph
+│   │   │   └── bitgraph
+│   │   ├── makerow_col
+│   │   ├── makerow_col.c
+│   │   ├── p12
+│   │   └── p12.c
+│   ├── p13
+│   ├── p14
+│   │   ├── bitgraph
+│   │   ├── cp_bitgraph
+│   │   │   └── bitgraph
+│   │   ├── elimit_disortion
+│   │   ├── p14
+│   │   └── p14.c
+│   ├── p2
+│   │   ├── cptext
+│   │   ├── p2
+│   │   ├── p2.c
+│   │   └── text
+│   ├── p3
+│   │   ├── p3
+│   │   ├── p3.c
+│   │   ├── text
+│   │   └── uptext
+│   ├── p4
+│   │   ├── one
+│   │   ├── p4
+│   │   ├── p4.c
+│   │   ├── three
+│   │   └── two
+│   ├── p5
+│   │   ├── append
+│   │   ├── append.c
+│   │   ├── dest
+│   │   ├── source1
+│   │   └── source2
+│   ├── p7
+│   │   ├── p7
+│   │   ├── p7.c
+│   │   ├── text1
+│   │   └── text2
+│   └── p8
+│       ├── findr1
+│       ├── findr2
+│       ├── p8
+│       └── p8.c
+└── review
+    ├── p4
+    ├── p4.c
+    ├── p5
+    ├── p5.c
+    ├── table
+    └── table5
+
+22 directories, 77 files

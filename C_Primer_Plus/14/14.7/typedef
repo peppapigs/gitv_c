@@ -1,0 +1,44 @@
+unsigned char byte;     //定义一个无符号char类型变量 byte
+                                            _____________
+                                                        |
+                                                        |
+                                                        \
+
+typedef unsigned char byte;     //定义一个无符号char类型 byte(别名)
+                                                    ---------------
+
+int INTEGER;
+|
+typedef int INTEGER;
+
+INTEGER num = 12;=====int num = 12;
+
+
+eg: typedef char * STRING;
+    STRING name, sign; === char * name, * sign; //角度1：但是变量因类型名更清晰表达
+                                                //角度2：使用typedef能提高程序移植性
+
+
+见：P478
+
+
+typedef & #define :
+
+1. 可能功能重合：
+typedef unsigned char BYTE; ==== #define BYTE unsigned char
+
+2. #define 没有的功能：
+eg: typedef char * STRING;
+    STRING name, sign; === char * name, * sign; //角度1：但是变量因类型名更清晰表达
+                                                //角度2：使用typedef能提高程序移植性
+    #define STRING char *
+    STRING name, sign; === char *name, sign;    //原因：define在参与解析时，先替换再
+                                                        参与解释运算
+
+
+typedef + struct:
+
+typedef 结构布局                       别名；
+typedef struct 结构标记{成员变量；...} 别名；
+
+别名 结构体变量;
