@@ -1,0 +1,21 @@
+
+process time: 处理器时间
+
+CLOCKS_PER_SEC: 每秒 处理器时间单位(时钟周期) 的数量
+
+#include <time.h>
+
+clock_t clock(void);    //返回 (函数当前运行时) 处理器时间数量
+
+
+两个clock()可以测试某一代码段所需时间:
+
+processtime_num1 = clock();
+eg： for
+processtime_num2 = clock();
+
+int time;
+time[for] = (processtime_num2 - processtime_num1)/CLOCKS_PER_SEC;    //精确到秒
+
+double time;
+time[for] = ((double)(processtime_num2 - processtime_num1))/CLOCKS_PER_SEC;    //精确到小数点单位

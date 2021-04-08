@@ -1,0 +1,34 @@
+8.
+
+C:预处理指令 通过条件编译的方式 忽略 特定条件下 的代码。
+
+条件编译 主要使用 #ifdef、#ifndef、#else、#endif等指令。
+
+way 1:
+#define _SKIP_      //执行skip code
+
+#ifdef _SKIP_
+/*skip code*/
+#endif
+
+way 2:
+// #define _SKIP_   //执行skip code
+
+#ifndef _SKIP_
+/*skip code*/
+#endif
+
+
+way 3:
+//#define NDEBUG    //执行skip code
+
+#include <assert.h>
+
+assert(表达式);
+
+
+9.
+
+#ifdef PR_DATE  
+    printf("%s\n", __DATE__);
+#endif
